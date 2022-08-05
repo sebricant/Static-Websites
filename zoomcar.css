@@ -1,0 +1,144 @@
+.header{
+    background-color: black;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+body{
+    margin: 0;
+    /* background-image:url("https://www.zoomcar.com/img/bg-desktop.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    
+}
+.menu{
+    padding-left: 22px;
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.option{
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 650px;
+    color: white;
+}
+.option1{
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 120px;
+    color: white;
+}
+.option2{
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 120px;
+    color: white;
+}
+/* .midbody{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.selection{
+        
+    height: 32px;
+    margin-left: 620px;
+    margin-top: 546px;
+    background: transparent;
+    border: none;
+    color: black;
+}
+.selecttext{
+    background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+} */
+
+.container-body{
+    /* display: flex; */
+    padding-top: 65px;
+    position: relative;
+    border: 0px solid;
+}
+.midbody{
+    border: none;
+    
+    position: absolute;
+    top: 420px;
+    left: 550px;
+}
+
+.car{
+    object-fit: cover;
+    object-position: 0 -180px;
+}
+
+.pick-button{
+    padding: 18px;
+    background-color: grey;
+}
+
+.find-button{
+    /* margin-top: 5px; */
+    padding: 18px;
+
+}
+.ref{
+    display: flex;
+    background-color: white;
+    width: 450px;
+    height: 201px;
+    margin-left: 260px;
+    border: 1px solid grey;
+    /* border-width: thick; */
+    
+}
+
+.referalimg{
+    width: 182px;
+    height: 201px;
+}
+.coupon{
+    /* display: flex; */
+    background-color: white;
+    width: 550px;
+    height: 235px;
+    margin-left: 45px;
+    border: 1px solid grey;
+}
+
+.image-section{
+    width: 100%;
+    height: 900px;
+    background-color: #F4F4F4;
+    margin-top: 80px;
+}
+.vouchers{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.ad{
+    display: flex;
+}
+.about{
+    width: 100%;
+    height: 20px;
+    border: 1px solid grey;
+}
+.content{
+    width: 100%;
+    height: 525px;
+    background-color: #F4F4F4;
+    margin-top: -14px;
+}
